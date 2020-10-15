@@ -36,11 +36,22 @@ WebUI.click(findTestObject('Object Repository/FilterItem/SpecificItem'))
 WebUI.comment('Once the filter result comes back the user must be able to confirm the existence of the specific item and by it click it')
 
 //Add item to cart
-WebUI.verifyElementPresent(findTestObject('Object Repository/SearchCriteria/input_nav-input'), 0, FailureHandling.STOP_ON_FAILURE)
+var A = (WebUI.verifyElementPresent(findTestObject('Object Repository/SearchCriteria/input_nav-input'), 0, FailureHandling.STOP_ON_FAILURE))
 WebUI.verifyElementPresent(findTestObject('Object Repository/SearchCriteria/SONY PlayStation 4 Slim 1TB Console-item'),0)
+
+//Validation for listed filter items existence
+if (A == True){
 WebUI.verifyElementPresent(findTestObject('Object Repository/ItemAddtoCart/input_submit.add-to-cart'), 0, FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Object Repository/ItemAddtoCart/input_submit.add-to-cart', FailureHandling.STOP_ON_FAILURE))
+WebUI.click(findTestObject('Object Repository/ItemAddtoCart/input_submit.add-to-cart'))
 WebUI.comment('The user must be able to access the specific item page and by it click on the Add to Cart button')
+} 
+
+else{
+	//Close browser in case specific item can not be access
+	WebUI.closeBrowser()
+	WebUI.comment('The item being filter does not exist, test can not be completed')
+}
+
 
 //Verify the item addition correctly
 WebUI.verifyElementPresent(findTestObject('Object Repository/AddedItemConfirmation/AddedtoCart'), 0, FailureHandling.STOP_ON_FAILURE)
