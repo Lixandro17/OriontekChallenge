@@ -19,21 +19,31 @@ import internal.GlobalVariable as GlobalVariable
 //Open browser
 WebUI.openBrowser(null)
 WebUI.navigateToUrl("https://www.amazon.com")
+WebUI.comment('The user must be able to navigate to the Amazon site')
 
-//Confirm search bar existence
-WebUI.verifyElementPresent(findTestObject('Object Repository/SearchBar/div_Todos'), 0)
+//Verify search bar existence
+WebUI.verifyElementPresent(findTestObject('Object Repository/SearchBar/div_Todos'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Given that the user lands on the amazon page it must be able to confirm the existence of the search bar')
 
 //Enter search criteria
 WebUI.setText(findTestObject('Object Repository/SearchBar/input_Todos_field-keywords'), 'PS4')
 WebUI.click(findTestObject('Object Repository/SearchButton/input_Todos_nav-input'))
+WebUI.comment('The user must be able to enter a search criteria and filter by the specific criteria')
 
-//Verfify specific item existence
-WebUI.verifyElementPresent(findTestObject('Object Repository/FilterItem/SpecificItem'), 0)
+//Verfify specific item existence and click it
+WebUI.verifyElementPresent(findTestObject('Object Repository/FilterItem/SpecificItem'), 0, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Object Repository/FilterItem/SpecificItem'))
+WebUI.comment('Once the filter result comes back the user must be able to confirm the existence of the specific item and by it click it')
 
 //Add item to cart
-WebUI.verifyElementPresent(findTestObject('Object Repository/AddtoCart/div_Agregado al carrito'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/AddtoCart/AddtoCart'), 0, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Object Repository/AddtoCart/AddtoCart'))
+WebUI.comment('The user must be able to access the specific item page and by it click on the Add to Cart button')
 
+//Verify the item addition correctly
+  WebUI.verifyElementPresent(findTestObject('Object Repository/AddedItemConfirmation/AddedtoCart'), 0, FailureHandling.STOP_ON_FAILURE)
+  WebUI.comment('The user must be able to access the specific item page and by it click on the Add to Cart button')
+  
 //Close browser
 WebUI.closeBrowser()
+WebUI.comment('The user must be able to access the specific item page and by it click on the Add to Cart button')
