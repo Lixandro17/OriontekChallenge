@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Todos_field-keywords</name>
+   <name>submit.add-to-cart</name>
    <tag></tag>
-   <elementGuidId>b59493e5-b9a6-47eb-8725-1739cb441d8b</elementGuidId>
+   <elementGuidId>61a7a128-e285-492f-a6d2-7d13cbcda7e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#twotabsearchtextbox</value>
+         <value>#add-to-cart-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='twotabsearchtextbox']</value>
+         <value>//input[@id='add-to-cart-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,85 +26,85 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>twotabsearchtextbox</value>
+      <value>add-to-cart-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>field-keywords</value>
+      <value>submit.add-to-cart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Agregar al Carrito</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>data-hover</name>
       <type>Main</type>
-      <value>off</value>
+      <value>Seleccionar &lt;b>__dims__&lt;/b> de la izquierda&lt;br> para agregar al carrito de compras</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-input</value>
+      <value>a-button-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>dir</name>
+      <name>value</name>
       <type>Main</type>
-      <value>auto</value>
+      <value>Agregar al Carrito</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>aria-labelledby</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>Buscar</value>
+      <value>submit.add-to-cart-announce</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;twotabsearchtextbox&quot;)</value>
+      <value>id(&quot;add-to-cart-button&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='twotabsearchtextbox']</value>
+      <value>//input[@id='add-to-cart-button']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-search']/form/div[2]/div/input</value>
+      <value>//span[@id='submit.add-to-cart']/span/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
+      <value>//span/span/input</value>
    </webElementXpaths>
 </WebElementEntity>

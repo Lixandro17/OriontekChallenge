@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_SONY PlayStation 4 Slim 1TB Console, Light  Slim PS4 System, 1TB Hard Drive, All the Greatest Games, TV, Music  More</name>
+   <name>SONY PlayStation 4 Slim 1TB Console-item</name>
    <tag></tag>
    <elementGuidId>a98abb51-8a63-4180-8a4b-4cec37517947</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

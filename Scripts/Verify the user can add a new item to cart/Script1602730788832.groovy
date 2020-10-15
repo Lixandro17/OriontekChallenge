@@ -26,8 +26,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/SearchBar/div_Todos
 WebUI.comment('Given that the user lands on the amazon page it must be able to confirm the existence of the search bar')
 
 //Enter search criteria
-WebUI.setText(findTestObject('Object Repository/SearchBar/input_Todos_field-keywords'), 'PS4')
-WebUI.click(findTestObject('Object Repository/SearchButton/input_Todos_nav-input'))
+WebUI.setText(findTestObject('SearchBar/input_field-keywords'), 'PS4')
+WebUI.click(findTestObject('SearchButton/input_nav-input'))
 WebUI.comment('The user must be able to enter a search criteria and filter by the specific criteria')
 
 //Verfify specific item existence and click it
@@ -36,14 +36,16 @@ WebUI.click(findTestObject('Object Repository/FilterItem/SpecificItem'))
 WebUI.comment('Once the filter result comes back the user must be able to confirm the existence of the specific item and by it click it')
 
 //Add item to cart
-WebUI.verifyElementPresent(findTestObject('Object Repository/AddtoCart/AddtoCart'), 0, FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Object Repository/AddtoCart/AddtoCart'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/SearchCriteria/input_nav-input'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/SearchCriteria/SONY PlayStation 4 Slim 1TB Console-item'),0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ItemAddtoCart/input_submit.add-to-cart'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/ItemAddtoCart/input_submit.add-to-cart', FailureHandling.STOP_ON_FAILURE))
 WebUI.comment('The user must be able to access the specific item page and by it click on the Add to Cart button')
 
 //Verify the item addition correctly
-  WebUI.verifyElementPresent(findTestObject('Object Repository/AddedItemConfirmation/AddedtoCart'), 0, FailureHandling.STOP_ON_FAILURE)
-  WebUI.comment('The user must be able to access the specific item page and by it click on the Add to Cart button')
+WebUI.verifyElementPresent(findTestObject('Object Repository/AddedItemConfirmation/AddedtoCart'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Given that the Add to Cart button was clicked the user must be able to confirm that the specific item was added to the cart correctly')
   
 //Close browser
 WebUI.closeBrowser()
-WebUI.comment('The user must be able to access the specific item page and by it click on the Add to Cart button')
+WebUI.comment('Once the add to cart process is complete the browser must be close correctly')

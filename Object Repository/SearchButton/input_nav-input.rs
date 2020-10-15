@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Todos_nav-input</name>
+   <name>input_nav-input</name>
    <tag></tag>
    <elementGuidId>0bc2e94f-4a73-4ff1-8954-14acd600662a</elementGuidId>
    <selectorCollection>

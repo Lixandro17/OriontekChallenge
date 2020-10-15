@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AddtoCart</name>
+   <name>AddtoCart_Button</name>
    <tag></tag>
-   <elementGuidId>8ae46519-01ad-4c2b-abc7-667507237051</elementGuidId>
+   <elementGuidId>9bf9451c-a6be-4c96-900b-ffc5766ca9ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Agregar al Carrito</value>
+      <value>Add to Shopping Cart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-hover</name>
       <type>Main</type>
-      <value>Seleccionar &lt;b>__dims__&lt;/b> de la izquierda&lt;br> para agregar al carrito de compras</value>
+      <value>Select &lt;b>__dims__&lt;/b> from the left&lt;br> to add to Shopping Cart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Agregar al Carrito</value>
+      <value>Add to Cart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

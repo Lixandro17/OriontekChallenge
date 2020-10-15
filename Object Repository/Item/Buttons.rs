@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Cantidad</name>
+   <name>Buttons</name>
    <tag></tag>
-   <elementGuidId>fc795923-6342-4068-bd18-0e470593c1f6</elementGuidId>
+   <elementGuidId>c4ab7787-8777-49b4-8ef7-4341ae83b0c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -1679,153 +1679,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Cantidad:
+Qty:
 
 
 
@@ -2057,7 +1911,7 @@ Cantidad:
 
 
 
-Cantidad:1
+Qty:1
 
 
 
@@ -2903,7 +2757,7 @@ Cantidad:1
 
 
 
-Agregar al Carrito
+Add to Cart
 
 
 
@@ -3094,7 +2948,7 @@ window.markFeatureRender('atc',{isInteractive:false});
 
 
 
-{&quot;turboWeblab&quot;:&quot;RCX_CHECKOUT_TURBO_DESKTOP_NONPRIME_87784&quot;,&quot;strings&quot;:{&quot;TURBO_CHECKOUT_HEADER&quot;:&quot;Compra ahora: SONY PlayStation 4 Slim 1TB Console, Light &amp; Slim PS4 System, 1TB Hard Drive, All the Greatest Games, TV, Music &amp; More&quot;,&quot;TURBO_LOADING_TEXT&quot;:&quot;Cargando el resumen de tu pedido&quot;},&quot;inputs&quot;:{&quot;a&quot;:&quot;B077QT6K94&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;oid&quot;:&quot;&quot;,&quot;addressId&quot;:&quot;&quot;},&quot;configurations&quot;:{&quot;isSignInEnabled&quot;:true,&quot;initiateSelector&quot;:&quot;#buy-now-button&quot;,&quot;prefetchEnabled&quot;:true},&quot;buttonID&quot;:&quot;buy-now&quot;,&quot;eligibility&quot;:{&quot;isEligible&quot;:false},&quot;turboWeblabTreatment&quot;:&quot;T2&quot;,&quot;timeout&quot;:&quot;5000&quot;}
+{&quot;turboWeblab&quot;:&quot;RCX_CHECKOUT_TURBO_DESKTOP_NONPRIME_87784&quot;,&quot;strings&quot;:{&quot;TURBO_CHECKOUT_HEADER&quot;:&quot;Buy now: SONY PlayStation 4 Slim 1TB Console, Light &amp; Slim PS4 System, 1TB Hard Drive, All the Greatest Games, TV, Music &amp; More&quot;,&quot;TURBO_LOADING_TEXT&quot;:&quot;Loading your order summary&quot;},&quot;inputs&quot;:{&quot;a&quot;:&quot;B077QT6K94&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;oid&quot;:&quot;&quot;,&quot;addressId&quot;:&quot;&quot;},&quot;configurations&quot;:{&quot;isSignInEnabled&quot;:true,&quot;initiateSelector&quot;:&quot;#buy-now-button&quot;,&quot;prefetchEnabled&quot;:true},&quot;buttonID&quot;:&quot;buy-now&quot;,&quot;eligibility&quot;:{&quot;isEligible&quot;:false},&quot;turboWeblabTreatment&quot;:&quot;T2&quot;,&quot;timeout&quot;:&quot;5000&quot;}
 
 
 (function(f) {f(window.P._namespace(&quot;TurboClientDetailPage&quot;));}(function(P) {
@@ -3139,7 +2993,7 @@ window.ue.count(counter, 1);
 
 
 
-Comprar ahora
+Buy Now
 
 
 
@@ -3240,7 +3094,7 @@ Comprar ahora
 
 
 
-Transacción segura
+Secure transaction
 
 
 
@@ -3249,12 +3103,12 @@ Transacción segura
 
 
 
-Tu transacción es segura
+Your transaction is secure
 
 
-En Amazon, nos esforzamos por proteger tu seguridad y privacidad. Nuestro sistema de seguridad de pagos encripta tu información durante la transmisión de datos. No compartimos los datos de tu tarjeta de crédito con vendedores externos, ni vendemos tu información a terceros.
+We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others.
 
-Más información
+Learn more
 
 
 
@@ -3407,8 +3261,7 @@ Más información
 
 
 
-Agregar opciones de regalo
-
+Add gift options
 
 
 
@@ -3871,7 +3724,7 @@ Agregar opciones de regalo
 
 
 
-Enviar a República Dominicana
+Deliver to Dominican Republic
 
 
 
@@ -4012,7 +3865,7 @@ Enviar a República Dominicana
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendido por:'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sold by:'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
